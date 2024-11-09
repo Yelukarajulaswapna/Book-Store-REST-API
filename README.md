@@ -15,8 +15,7 @@ Run the following command in the root directory in order to package the applicat
 mvn -f server-pom.xml clean
 mvn -f server-pom.xml package 
 mvn -f commandline-pom.xml package
-```
-<img src="/src/tutorials/mvn-clean-package-bookstore.png">
+``
 
 Now you will have two Jar files in the target directory which one of them belongs to the server and the other one belongs to the commandline application.
 
@@ -25,12 +24,10 @@ Consider that the target directory will be created when you use package command 
 ```
 java -jar server-1.0-RELEASE.jar
 ```
-<img src="/src/tutorials/mvn-java-server.png">
 
 ```
 java -jar commandline-1.0-RELEASE.jar
 ```
-<img src="/src/tutorials/mvn-java-commandline.png">
 
 Now you have both the server and the commandline up and running. You will also have a database file called BookShop.db which store all the data.
 
